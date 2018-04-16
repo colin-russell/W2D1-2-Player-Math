@@ -13,6 +13,8 @@
 		3B0C75D3208524CB00B28195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B0C75D2208524CB00B28195 /* Assets.xcassets */; };
 		3B0C75D6208524CB00B28195 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B0C75D4208524CB00B28195 /* LaunchScreen.storyboard */; };
 		3B0C75D9208524CB00B28195 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0C75D8208524CB00B28195 /* main.m */; };
+		3B0C75E1208528DD00B28195 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0C75E0208528DD00B28195 /* Player.m */; };
+		3B0C75E4208528EA00B28195 /* GameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0C75E3208528EA00B28195 /* GameModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		3B0C75D5208524CB00B28195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B0C75D7208524CB00B28195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B0C75D8208524CB00B28195 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B0C75DF208528DD00B28195 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		3B0C75E0208528DD00B28195 /* Player.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		3B0C75E2208528EA00B28195 /* GameModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameModel.h; sourceTree = "<group>"; };
+		3B0C75E3208528EA00B28195 /* GameModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				3B0C75D4208524CB00B28195 /* LaunchScreen.storyboard */,
 				3B0C75D7208524CB00B28195 /* Info.plist */,
 				3B0C75D8208524CB00B28195 /* main.m */,
+				3B0C75DF208528DD00B28195 /* Player.h */,
+				3B0C75E0208528DD00B28195 /* Player.m */,
+				3B0C75E2208528EA00B28195 /* GameModel.h */,
+				3B0C75E3208528EA00B28195 /* GameModel.m */,
 			);
 			path = "2 Player Math";
 			sourceTree = "<group>";
@@ -141,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B0C75E1208528DD00B28195 /* Player.m in Sources */,
 				3B0C75CE208524C700B28195 /* ViewController.m in Sources */,
+				3B0C75E4208528EA00B28195 /* GameModel.m in Sources */,
 				3B0C75D9208524CB00B28195 /* main.m in Sources */,
 				3B0C75CB208524C700B28195 /* AppDelegate.m in Sources */,
 			);
