@@ -64,21 +64,53 @@
 		3B0C75C8208524C700B28195 /* 2 Player Math */ = {
 			isa = PBXGroup;
 			children = (
-				3B0C75C9208524C700B28195 /* AppDelegate.h */,
-				3B0C75CA208524C700B28195 /* AppDelegate.m */,
-				3B0C75CC208524C700B28195 /* ViewController.h */,
-				3B0C75CD208524C700B28195 /* ViewController.m */,
-				3B0C75CF208524C700B28195 /* Main.storyboard */,
-				3B0C75D2208524CB00B28195 /* Assets.xcassets */,
-				3B0C75D4208524CB00B28195 /* LaunchScreen.storyboard */,
+				3B3BDE1B2085401F003F74B4 /* Model */,
+				3B3BDE1A20854012003F74B4 /* View */,
+				3B3BDE1C20854026003F74B4 /* Controller */,
+				3B3BDE1D20854090003F74B4 /* Supplementary Files */,
 				3B0C75D7208524CB00B28195 /* Info.plist */,
-				3B0C75D8208524CB00B28195 /* main.m */,
-				3B0C75DF208528DD00B28195 /* Player.h */,
-				3B0C75E0208528DD00B28195 /* Player.m */,
-				3B0C75E2208528EA00B28195 /* GameModel.h */,
-				3B0C75E3208528EA00B28195 /* GameModel.m */,
 			);
 			path = "2 Player Math";
+			sourceTree = "<group>";
+		};
+		3B3BDE1A20854012003F74B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B0C75CF208524C700B28195 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B3BDE1B2085401F003F74B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B0C75E2208528EA00B28195 /* GameModel.h */,
+				3B0C75E3208528EA00B28195 /* GameModel.m */,
+				3B0C75DF208528DD00B28195 /* Player.h */,
+				3B0C75E0208528DD00B28195 /* Player.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B3BDE1C20854026003F74B4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B0C75CC208524C700B28195 /* ViewController.h */,
+				3B0C75CD208524C700B28195 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B3BDE1D20854090003F74B4 /* Supplementary Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B0C75C9208524C700B28195 /* AppDelegate.h */,
+				3B0C75CA208524C700B28195 /* AppDelegate.m */,
+				3B0C75D2208524CB00B28195 /* Assets.xcassets */,
+				3B0C75D4208524CB00B28195 /* LaunchScreen.storyboard */,
+				3B0C75D8208524CB00B28195 /* main.m */,
+			);
+			path = "Supplementary Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

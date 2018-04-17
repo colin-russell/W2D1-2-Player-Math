@@ -10,4 +10,18 @@
 
 @implementation Player
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        _numberOfLives = 3;
+    }
+    return self;
+}
+
+- (void)loseLife {
+    self.numberOfLives --;
+}
+
+
 @end

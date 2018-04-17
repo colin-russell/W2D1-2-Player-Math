@@ -10,4 +10,10 @@
 
 @interface Player : NSObject
 
+@property (nonatomic) NSInteger numberOfLives;
+@property (nonatomic, strong) NSString *name;
+@property (nonatomic) NSInteger answer;
+
+- (void)loseLife;
+
 @end
