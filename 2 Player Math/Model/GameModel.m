@@ -48,13 +48,11 @@
     return [NSString stringWithFormat:@"%@: %lu + %lu = ?", self.currentPlayer.name, x, y];
 }
 
-- (void)checkAnswer {
-    if (self.playerAnswer == self.correctAnswer) {
-        //NSLog(@"%@ CORRECT", self.currentPlayer.name);
+- (void)checkAnswer:(NSInteger)answer {
+    if (answer == self.correctAnswer) {
         self.outputText = [NSString stringWithFormat:@"%@ CORRECT", self.currentPlayer.name];
     }
     else {
-        //NSLog(@"%@ WRONG", self.currentPlayer.name);
         self.outputText = [NSString stringWithFormat:@"%@ WRONG", self.currentPlayer.name];
         [self.currentPlayer loseLife];
         if (self.currentPlayer.numberOfLives == 0) {

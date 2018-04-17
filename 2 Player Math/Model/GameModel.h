@@ -15,12 +15,11 @@
 @property (nonatomic, strong) Player *player1;
 @property (nonatomic, strong) Player *player2;
 @property (nonatomic) NSInteger playerIndex;
-@property (nonatomic) NSInteger playerAnswer;
 @property (nonatomic) NSInteger correctAnswer;
 @property (nonatomic, strong) NSString *outputText;
 
 - (Player *)currentPlayer;
 - (NSString *)generateQuestion;
-- (void)checkAnswer;
+- (void)checkAnswer:(NSInteger)answer;
 
 @end

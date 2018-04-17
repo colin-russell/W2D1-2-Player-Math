@@ -65,8 +65,8 @@
 - (IBAction)enterButton:(UIButton *)sender {
     NSLog(@"number entered: %@", self.userInput);
     
-    self.gameModel.playerAnswer = [self.userInput integerValue];
-    [self.gameModel checkAnswer];
+    //self.gameModel.playerAnswer = [self.userInput integerValue];
+    [self.gameModel checkAnswer:[self.userInput integerValue]];
     self.userInput = @"";
 
     self.displayQuestion.text = [self.gameModel generateQuestion];
@@ -76,6 +76,10 @@
 
 }
 
+- (IBAction)clearButton:(UIButton *)sender {
+    self.userInput = @"";
+    self.displayAnswer.text = self.userInput;
+}
 
 
 
